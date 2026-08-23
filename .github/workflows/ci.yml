@@ -1,0 +1,77 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-build:
+    name: Test and build
+    runs-on: macos-14
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+
+      - name: Select and print Xcode
+        shell: bash
+        run: |
+          test -d /Applications/Xcode_16.2.app/Contents/Developer
+          sudo xcode-select --switch /Applications/Xcode_16.2.app/Contents/Developer
+          xcode-select -p
+          xcodebuild -version
+          swift --version | tee /tmp/swift-version.txt
+          grep -Eq 'Swift version 6\.' /tmp/swift-version.txt
+
+      - name: Verify release version consistency
+        run: bash scripts/check_release_version.sh v1.0.0
+
+      - name: Audit reachable Git history privacy
+        run: python3 scripts/audit_repository_history.py --require-noreply-authors
+
+      - name: Test Debug with warnings as errors
+        run: |
+          swift package clean
+          swift test -c debug -Xswiftc -warnings-as-errors
+
+      - name: Test Release with warnings as errors
+        run: |
+          swift package clean
+          swift test -c release -Xswiftc -warnings-as-errors
+
+      - name: Run SkillPackagingTests under Xcode
+        run: |
+          xcodebuild test \
+            -scheme FCPXMLSubtitleAligner-Package \
+            -destination 'platform=macOS' \
+            -only-testing:FCPXMLSubtitleAlignerAppTests/SkillPackagingTests \
+            SWIFT_TREAT_WARNINGS_AS_ERRORS=YES
+
+      - name: Build universal Release App and CLI
+        run: |
+          swift build -c release --arch arm64 --arch x86_64 --product FCPXMLSubtitleAligner
+          swift build -c release --arch arm64 --arch x86_64 --product fcpxml-aligner
+          bin_path="$(swift build -c release --arch arm64 --arch x86_64 --show-bin-path)"
+          lipo "$bin_path/FCPXMLSubtitleAligner" -verify_arch arm64 x86_64
+          lipo "$bin_path/fcpxml-aligner" -verify_arch arm64 x86_64
+
+      - name: Quick-validate Skill
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          skill = Path("skills/fcpxml-subtitle-aligner/SKILL.md")
+          text = skill.read_text(encoding="utf-8")
+          assert text.startswith("---\n")
+          assert "fcpxml-aligner" in text
+          assert ".fcpxml" in text and ".fcpxmld" in text
+          assert "Structural validation: PASS" in text
+          print("skill quick_validate: PASS")
+          PY
+
+      - name: Validate shell scripts
+        run: bash -n scripts/build_app.sh scripts/build_release.sh scripts/check_release_version.sh scripts/install_skill.sh

@@ -1,0 +1,1314 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.14">
+    <resources>
+        <format id="r1" frameDuration="100/3000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)" />
+        <format id="r2" frameDuration="512/15360s" width="720" height="1280" colorSpace="1-1-1 (Rec. 709)" />
+        <asset id="r3" name="Synthetic Asset 001" uid="fixture-asset-001" start="0s" duration="1075722/15360s" hasVideo="1" format="r2" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-001" src="file:///fixtures/media/asset-001.media">
+                </media-rep>
+            </asset>
+        <asset id="r4" name="Synthetic Asset 002" uid="fixture-asset-002" start="0s" duration="1713152/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-002" src="file:///fixtures/media/asset-002.media">
+                </media-rep>
+            </asset>
+        <format id="r5" name="Synthetic Format 001" />
+        <effect id="r6" name="Custom" uid="com.example.fixture.effect-001" />
+        <effect id="r7" name="Basic Title" uid="com.example.fixture.effect-002" />
+        <asset id="r8" name="Synthetic Asset 003" uid="fixture-asset-003" start="0s" duration="0s" hasVideo="1" format="r9" videoSources="1">
+            <media-rep kind="original-media" sig="fixture-media-signature-003" src="file:///fixtures/media/asset-003.media">
+                </media-rep>
+            </asset>
+        <format id="r9" name="Synthetic Format 002" width="250" height="32" colorSpace="1-13-1" />
+        <asset id="r10" name="Synthetic Asset 004" uid="fixture-asset-004" start="0s" duration="157928/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-004" src="file:///fixtures/media/asset-004.media">
+                </media-rep>
+            </asset>
+        <format id="r11" name="Synthetic Format 003" frameDuration="512/15360s" width="1280" height="720" colorSpace="1-1-1 (Rec. 709)" />
+        <asset id="r12" name="Synthetic Asset 005" uid="fixture-asset-005" start="0s" duration="1507829/15360s" hasVideo="1" format="r11" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-005" src="file:///fixtures/media/asset-005.media">
+                </media-rep>
+            </asset>
+        <effect id="r13" name="Synthetic Effect 003" uid="com.example.fixture.effect-003" />
+        <asset id="r14" name="Synthetic Asset 006" uid="fixture-asset-006" start="0s" duration="1549312/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-006" src="file:///fixtures/media/asset-006.media">
+                </media-rep>
+            </asset>
+        <format id="r15" name="Synthetic Format 004" frameDuration="512/15360s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)" />
+        <asset id="r16" name="Synthetic Asset 007" uid="fixture-asset-007" start="0s" duration="3639306/15360s" hasVideo="1" format="r15" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-007" src="file:///fixtures/media/asset-007.media">
+                </media-rep>
+            </asset>
+        <asset id="r17" name="Synthetic Asset 008" uid="fixture-asset-008" start="0s" duration="12776177/48000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="fixture-media-signature-008" src="file:///fixtures/media/asset-008.media">
+                </media-rep>
+            </asset>
+        <asset id="r18" name="Synthetic Asset 009" uid="fixture-asset-009" start="0s" duration="135168/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-009" src="file:///fixtures/media/asset-009.media">
+                </media-rep>
+            </asset>
+        <asset id="r19" name="Synthetic Asset 010" uid="fixture-asset-010" start="0s" duration="52224/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-010" src="file:///fixtures/media/asset-010.media">
+                </media-rep>
+            </asset>
+        <asset id="r20" name="Synthetic Asset 011" uid="fixture-asset-011" start="0s" duration="280869/48000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="fixture-media-signature-011" src="file:///fixtures/media/asset-011.media">
+                </media-rep>
+            </asset>
+        <asset id="r21" name="Synthetic Asset 012" uid="fixture-asset-012" start="0s" duration="78570/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-012" src="file:///fixtures/media/asset-012.media">
+                </media-rep>
+            </asset>
+        <effect id="r22" name="Synthetic Effect 004" uid="com.example.fixture.effect-004" />
+        <asset id="r23" name="Synthetic Asset 013" uid="fixture-asset-013" start="0s" duration="62586/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-013" src="file:///fixtures/media/asset-013.media">
+                </media-rep>
+            </asset>
+        <asset id="r24" name="Synthetic Asset 014" uid="fixture-asset-014" start="0s" duration="148480/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-014" src="file:///fixtures/media/asset-014.media">
+                </media-rep>
+            </asset>
+        <asset id="r25" name="Synthetic Asset 015" uid="fixture-asset-015" start="0s" duration="54066/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-015" src="file:///fixtures/media/asset-015.media">
+                </media-rep>
+            </asset>
+        <asset id="r26" name="Synthetic Asset 016" uid="fixture-asset-016" start="0s" duration="84732/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-016" src="file:///fixtures/media/asset-016.media">
+                </media-rep>
+            </asset>
+        <asset id="r27" name="Synthetic Asset 017" uid="fixture-asset-017" start="0s" duration="50900/1000s" hasVideo="1" format="r11" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-017" src="file:///fixtures/media/asset-017.media">
+                </media-rep>
+            </asset>
+        <asset id="r28" name="Synthetic Asset 018" uid="fixture-asset-018" start="0s" duration="175562362/48000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="fixture-media-signature-018" src="file:///fixtures/media/asset-018.media">
+                </media-rep>
+            </asset>
+        <asset id="r29" name="Synthetic Asset 019" uid="fixture-asset-019" start="0s" duration="76722/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-019" src="file:///fixtures/media/asset-019.media">
+                </media-rep>
+            </asset>
+        <asset id="r30" name="Synthetic Asset 020" uid="fixture-asset-020" start="0s" duration="92722/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-020" src="file:///fixtures/media/asset-020.media">
+                </media-rep>
+            </asset>
+        <asset id="r31" name="Synthetic Asset 021" uid="fixture-asset-021" start="0s" duration="68044/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-021" src="file:///fixtures/media/asset-021.media">
+                </media-rep>
+            </asset>
+        <asset id="r32" name="Synthetic Asset 022" uid="fixture-asset-022" start="0s" duration="48716/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-022" src="file:///fixtures/media/asset-022.media">
+                </media-rep>
+            </asset>
+        <asset id="r33" name="Synthetic Asset 023" uid="fixture-asset-023" start="0s" duration="110031/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-023" src="file:///fixtures/media/asset-023.media">
+                </media-rep>
+            </asset>
+        <asset id="r34" name="Synthetic Asset 024" uid="fixture-asset-024" start="0s" duration="74667/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-024" src="file:///fixtures/media/asset-024.media">
+                </media-rep>
+            </asset>
+        <asset id="r35" name="Synthetic Asset 025" uid="fixture-asset-025" start="0s" duration="116736/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-025" src="file:///fixtures/media/asset-025.media">
+                </media-rep>
+            </asset>
+        <asset id="r36" name="Synthetic Asset 026" uid="fixture-asset-026" start="0s" duration="114695/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-026" src="file:///fixtures/media/asset-026.media">
+                </media-rep>
+            </asset>
+        <asset id="r37" name="Synthetic Asset 027" uid="fixture-asset-027" start="0s" duration="76754/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-027" src="file:///fixtures/media/asset-027.media">
+                </media-rep>
+            </asset>
+        <asset id="r38" name="Synthetic Asset 028" uid="fixture-asset-028" start="0s" duration="63884/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-028" src="file:///fixtures/media/asset-028.media">
+                </media-rep>
+            </asset>
+        <asset id="r39" name="Synthetic Asset 029" uid="fixture-asset-029" start="0s" duration="88243/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-029" src="file:///fixtures/media/asset-029.media">
+                </media-rep>
+            </asset>
+        <format id="r40" frameDuration="1001/30000s" width="854" height="480" colorSpace="1-1-1 (Rec. 709)" />
+        <asset id="r41" name="Synthetic Asset 030" uid="fixture-asset-030" start="0s" duration="199700/1000s" hasVideo="1" format="r40" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-030" src="file:///fixtures/media/asset-030.media">
+                </media-rep>
+            </asset>
+        <asset id="r42" name="Synthetic Asset 031" uid="fixture-asset-031" start="0s" duration="436907/48000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="fixture-media-signature-031" src="file:///fixtures/media/asset-031.media">
+                </media-rep>
+            </asset>
+        <asset id="r43" name="Synthetic Asset 032" uid="fixture-asset-032" start="0s" duration="90091/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-032" src="file:///fixtures/media/asset-032.media">
+                </media-rep>
+            </asset>
+        <format id="r44" name="Synthetic Format 005" frameDuration="3600/90000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)" />
+        <asset id="r45" name="Synthetic Asset 033" uid="fixture-asset-033" start="0s" duration="1005400/1000s" hasVideo="1" format="r44" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-033" src="file:///fixtures/media/asset-033.media">
+                </media-rep>
+            </asset>
+        <asset id="r46" name="Synthetic Asset 034" uid="fixture-asset-034" start="0s" duration="92221/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-034" src="file:///fixtures/media/asset-034.media">
+                </media-rep>
+            </asset>
+        <format id="r47" frameDuration="1001/30000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)" />
+        <asset id="r48" name="Synthetic Asset 035" uid="fixture-asset-035" start="0s" duration="134391/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-035" src="file:///fixtures/media/asset-035.media">
+                </media-rep>
+            </asset>
+        <asset id="r49" name="Synthetic Asset 036" uid="fixture-asset-036" start="0s" duration="56245/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-036" src="file:///fixtures/media/asset-036.media">
+                </media-rep>
+            </asset>
+        <asset id="r50" name="Synthetic Asset 037" uid="fixture-asset-037" start="0s" duration="64080/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-037" src="file:///fixtures/media/asset-037.media">
+                </media-rep>
+            </asset>
+        <asset id="r51" name="Synthetic Asset 038" uid="fixture-asset-038" start="0s" duration="81639/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-038" src="file:///fixtures/media/asset-038.media">
+                </media-rep>
+            </asset>
+        <asset id="r52" name="Synthetic Asset 039" uid="fixture-asset-039" start="0s" duration="63488/44100s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <media-rep kind="original-media" sig="fixture-media-signature-039" src="file:///fixtures/media/asset-039.media">
+                </media-rep>
+            </asset>
+    </resources>
+    <library location="file:///fixtures/SyntheticSubtitleAlignment.fcpbundle">
+        <event name="Synthetic Fixture Event" uid="fixture-event-001">
+            <project name="Synthetic Subtitle Alignment Project" uid="fixture-project-001" modDate="2000-01-01 00:00:00 +0000">
+                <sequence format="r1" duration="8081915352/282240000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <clip offset="0s" name="Synthetic Clip 001" start="90100/3000s" duration="2300/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="537856/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <asset-clip ref="r4" lane="-4" offset="1059576000/35280000s" name="Synthetic Asset Clip 001" start="591952364/35280000s" duration="665955/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-6.07651dB" />
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <video ref="r6" lane="1" offset="90100/3000s" name="Synthetic Video 001" start="11044400/3000s" duration="10400/3000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.823082 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="90100/3000s" name="Careful Batter - Basic Title" start="10954900/3000s" duration="10400/3000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts1">carefully spread </text-style>
+                                    <text-style ref="ts2">the batter across </text-style>
+                                    <text-style ref="ts3">the warm </text-style>
+                                    <text-style ref="ts1">skillet surface</text-style>
+                                </text>
+                                <text-style-def id="ts1">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts2">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="0.968627 0.803922 0.541176 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts3">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 0.996078 0.376471 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.376" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <video ref="r8" lane="4" offset="90100/3000s" name="Synthetic Video 002" start="10746700/3000s" duration="85900/3000s">
+                                <adjust-transform position="0.401802 -42.1802" scale="0.543598 0.543598" />
+                                <keyword start="3600s" duration="10s" value="Synthetic Keyword" />
+                            </video>
+                            <asset-clip ref="r10" lane="-1" offset="21722249/720000s" name="Synthetic Asset Clip 002" start="424022/720000s" duration="89095687/35280000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                            <clip lane="-3" offset="21737740/720000s" name="Synthetic Clip 002" start="10463/12012s" duration="1814280/720000s" format="r11" tcFormat="NDF">
+                                <adjust-volume amount="-10.6117dB">
+                                    <param name="amount">
+                                        <fadeIn type="easeIn" duration="276936/720000s" />
+                                        <fadeOut type="easeIn" duration="237734/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <gap name="Synthetic Gap 001" offset="0s" duration="1507328/15360s">
+                                    <audio ref="r12" lane="-1" offset="0s" duration="70679485/720000s" role="dialogue.dialogue-1" srcCh="1, 2" />
+                                </gap>
+                                <filter-audio ref="r13" name="Synthetic Filter Audio 001">
+                                    <data key="effectState">c3ludGhldGlj</data>
+                                    <param name="Peak 2 Frequency [Hz]" key="14" value="790" auxValue="558" />
+                                    <param name="Peak 2 Gain [dB]" key="15" value="-3.5" auxValue="205" />
+                                    <param name="Peak 3 Frequency [Hz]" key="18" value="770" auxValue="554" />
+                                    <param name="Peak 3 Gain [dB]" key="19" value="-17.5" auxValue="65" />
+                                    <param name="Peak 4 Frequency [Hz]" key="22" value="770" auxValue="554" />
+                                    <param name="Peak 4 Gain [dB]" key="23" value="-2.0" auxValue="220" />
+                                    <param name="Gain-Q Couple Mode" key="43" value="2 (Medium)" />
+                                    <param name="Oversampling" key="45" value="0" />
+                                </filter-audio>
+                            </clip>
+                            <asset-clip ref="r14" lane="-5" offset="21771288/720000s" name="Synthetic Asset Clip 003" start="910455/720000s" duration="853688/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-0.65709dB" />
+                                <keyword start="0s" duration="1549312/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r4" lane="-2" offset="1086165360/35280000s" name="Synthetic Asset Clip 004" start="591952364/35280000s" duration="647867/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-13.4449dB" />
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="2300/3000s" name="Synthetic Clip 003" start="92450/3000s" duration="2700/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="537856/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                        </clip>
+                        <clip offset="5000/3000s" name="Synthetic Clip 004" start="96400/3000s" duration="2800/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="537856/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <asset-clip ref="r4" lane="-4" offset="1133740440/35280000s" name="Synthetic Asset Clip 005" start="591952364/35280000s" duration="647867/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-20.2458dB" />
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <clip lane="-2" offset="23735508/720000s" name="Synthetic Clip 005" start="1983479/48048s" duration="645579/720000s" format="r15" tcFormat="NDF">
+                                <adjust-volume amount="-3.83286dB">
+                                    <param name="amount">
+                                        <fadeIn type="easeIn" duration="2415848/5760000s" />
+                                    </param>
+                                </adjust-volume>
+                                <gap name="Synthetic Gap 002" offset="0s" duration="3639296/15360s">
+                                    <audio ref="r16" lane="-1" offset="0s" duration="170592469/720000s" role="dialogue.dialogue-1" srcCh="1, 2" />
+                                </gap>
+                            </clip>
+                            <asset-clip ref="r4" lane="-4" offset="1166533984/35280000s" name="Synthetic Asset Clip 006" start="591952364/35280000s" duration="647867/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-20.2458dB" />
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="7800/3000s" name="Synthetic Clip 006" start="99250/3000s" duration="2600/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="537856/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <asset-clip ref="r17" lane="-7" offset="3975709/120000s" name="Synthetic Asset Clip 007" start="24091/1500s" duration="18709326/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-18dB">
+                                    <param name="amount">
+                                        <fadeIn type="easeIn" duration="982110/720000s" />
+                                        <fadeOut type="easeIn" duration="982392/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="12776177/48000s" value="Synthetic Keyword" />
+                                <filter-audio ref="r13" name="Synthetic Filter Audio 002">
+                                    <data key="effectState">c3ludGhldGlj</data>
+                                    <param name="Peak 2 Frequency [Hz]" key="14" value="760" auxValue="552" />
+                                    <param name="Peak 2 Gain [dB]" key="15" value="-19.2" auxValue="48" />
+                                    <param name="Peak 3 Frequency [Hz]" key="18" value="765" auxValue="553" />
+                                    <param name="Peak 3 Gain [dB]" key="19" value="-23.9" auxValue="1" />
+                                    <param name="Peak 4 Frequency [Hz]" key="22" value="770" auxValue="554" />
+                                    <param name="Peak 4 Gain [dB]" key="23" value="-14.8" auxValue="92" />
+                                </filter-audio>
+                            </asset-clip>
+                            <asset-clip ref="r18" lane="-5" offset="23901504/720000s" name="Synthetic Asset Clip 008" start="1047258/720000s" duration="527513/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-19.7166dB">
+                                    <param name="amount">
+                                        <fadeIn type="easeIn" duration="3039712/5760000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="135168/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r19" lane="-6" offset="7386309/220500s" name="Synthetic Asset Clip 009" start="13421/44100s" duration="327563/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-6.41817dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="35095368/282240000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="52224/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="10400/3000s" name="Synthetic Clip 007" start="2000/3000s" duration="5200/3000s" format="r2" tcFormat="NDF">
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="2000/3000s" name="Synthetic Video 003" start="11076200/3000s" duration="11100/3000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="0.200176 30.9248" scale="0.473937 0.100272" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="2000/3000s" name="Ingredient Notes - Basic Title" start="10986700/3000s" duration="5200/3000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/3131744579/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/3131744579/404" value="-2" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/3131744591/401" value="0 (Left)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/3131744591/404" value="-2" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/3131744622/401" value="0 (Left)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/3131744622/404" value="-2" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/3131744623/401" value="0 (Left)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/3131744623/404" value="-2" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/3131744634/401" value="0 (Left)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/3131744634/404" value="-2" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="0 (Left)" />
+                                <param name="Color" key="9999/999166631/999166633/5/3131745321/14/16" value="0.996757 0.973154 0.460846" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts4">flour 500g
+</text-style>
+                                    <text-style ref="ts5">salt 1 tsp
+</text-style>
+                                    <text-style ref="ts6">three eggs
+</text-style>
+                                    <text-style ref="ts7">yeast 5g
+warm water 300ml</text-style>
+                                </text>
+                                <text-style-def id="ts4">
+                                    <text-style font="Avenir Next" fontSize="16" fontColor="0.996078 0.980392 0.388235 1" italic="1" />
+                                </text-style-def>
+                                <text-style-def id="ts5">
+                                    <text-style font="Avenir Next" fontSize="16" fontFace="Regular" fontColor="1 1 1 1" />
+                                </text-style-def>
+                                <text-style-def id="ts6">
+                                    <text-style font="Avenir Next" fontSize="16" fontFace="Regular" fontColor="1 1 1 1" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts7">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-11.7778 33.254" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r20" lane="-3" offset="487896/720000s" name="Synthetic Asset Clip 010" start="1809611/720000s" duration="1238163/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-16.5951dB" />
+                            </asset-clip>
+                            <asset-clip ref="r21" lane="-1" offset="491935/720000s" name="Synthetic Asset Clip 011" start="392996/720000s" duration="41065406/35280000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="2dB" />
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                                <filter-audio ref="r22" name="Synthetic Filter Audio 003">
+                                    <param name="Amount" key="amount" value="12" />
+                                </filter-audio>
+                            </asset-clip>
+                            <clip lane="-2" offset="1246859/720000s" name="Synthetic Clip 008" start="4859/9009s" duration="513520/720000s" format="r15" tcFormat="NDF">
+                                <adjust-volume amount="1.17456dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="150336/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <gap name="Synthetic Gap 003" offset="0s" duration="3639296/15360s">
+                                    <audio ref="r16" lane="-1" offset="0s" duration="170592469/720000s" role="dialogue.dialogue-1" srcCh="1, 2" />
+                                </gap>
+                            </clip>
+                        </clip>
+                        <clip offset="15600/3000s" name="Synthetic Clip 009" start="6750/3000s" duration="3100/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="896427/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <asset-clip ref="r23" lane="-1" offset="1655986/720000s" name="Synthetic Asset Clip 012" start="330944/720000s" duration="32078891/35280000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                            <asset-clip ref="r24" lane="-2" offset="1458387/630000s" name="Synthetic Asset Clip 013" start="4043/3150s" duration="686040/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-13.7902dB" />
+                                <keyword start="0s" duration="148480/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="18700/3000s" name="Synthetic Clip 010" start="12800/3000s" duration="2800/3000s" format="r2" tcFormat="NDF">
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <asset-clip ref="r25" lane="-1" offset="3082770/720000s" name="Synthetic Asset Clip 014" start="232695/720000s" duration="29570334/35280000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="2dB" />
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                                <filter-audio ref="r22" name="Synthetic Filter Audio 004">
+                                    <param name="Amount" key="amount" value="12" />
+                                </filter-audio>
+                            </asset-clip>
+                            <asset-clip ref="r4" lane="-2" offset="157005408/35280000s" name="Synthetic Asset Clip 015" start="985766085/35280000s" duration="429175/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-14.0365dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="23289896/282240000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="21500/3000s" name="Synthetic Clip 011" start="11001/3000s" duration="2500/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="717141/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="11001/3000s" name="Synthetic Video 004" start="11087300/3000s" duration="2500/3000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.196152 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="11001/3000s" name="Warm Skillet - Basic Title" start="10997800/3000s" duration="2500/3000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/3131744579/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/3131744579/404" value="-2" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/3131744622/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/3131744622/404" value="-2" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts16">warm the skillet</text-style>
+                                </text>
+                                <text-style-def id="ts16">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.376" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r26" lane="-1" offset="2651240/720000s" name="Synthetic Asset Clip 016" start="413680/720000s" duration="27244960/35280000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                            <clip lane="-2" offset="2658576/720000s" name="Synthetic Clip 012" start="2125237/55440s" duration="579053/720000s" format="r11" tcFormat="NDF">
+                                <adjust-volume amount="-18.8184dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="44225/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <gap name="Synthetic Gap 004" offset="0s" duration="781824/15360s">
+                                    <audio ref="r27" lane="-1" offset="0s" duration="36648000/720000s" role="dialogue.dialogue-1" srcCh="1, 2" />
+                                </gap>
+                                <filter-audio ref="r13" name="Synthetic Filter Audio 005">
+                                    <data key="effectState">c3ludGhldGlj</data>
+                                    <param name="Peak 2 Frequency [Hz]" key="14" value="710" auxValue="542" />
+                                    <param name="Peak 2 Gain [dB]" key="15" value="-11.0" auxValue="130" />
+                                    <param name="Peak 3 Frequency [Hz]" key="18" value="730" auxValue="546" />
+                                    <param name="Peak 3 Gain [dB]" key="19" value="-22.5" auxValue="15" />
+                                    <param name="Peak 4 Frequency [Hz]" key="22" value="740" auxValue="548" />
+                                    <param name="Peak 4 Gain [dB]" key="23" value="-14.0" auxValue="100" />
+                                    <param name="Gain-Q Couple Mode" key="43" value="2 (Medium)" />
+                                    <param name="Oversampling" key="45" value="0" />
+                                </filter-audio>
+                            </clip>
+                            <asset-clip ref="r28" lane="-3" offset="3231111/720000s" name="Synthetic Asset Clip 017" start="4613084/720000s" duration="846185/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-15.6729dB">
+                                    <param name="amount">
+                                        <fadeIn type="easeIn" duration="82672/720000s" />
+                                        <fadeOut type="easeIn" duration="217923/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="175562362/48000s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="8s" name="Synthetic Clip 013" start="21600/3000s" duration="3500/3000s" format="r2" tcFormat="NDF">
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="21600/3000s" name="Synthetic Video 005" start="11089800/3000s" duration="448000/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.288972 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="21600/3000s" name="Fold Edges - Basic Title" start="11000300/3000s" duration="448000/384000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/3131744579/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/3131744579/404" value="-2" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts17">fold </text-style>
+                                    <text-style ref="ts18">the </text-style>
+                                    <text-style ref="ts17">edges</text-style>
+                                </text>
+                                <text-style-def id="ts17">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts18">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="0.992157 0.960784 0.356863 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.376" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r4" lane="-2" offset="255142608/35280000s" name="Synthetic Asset Clip 018" start="591952364/35280000s" duration="647867/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-20.2458dB" />
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r29" lane="-1" offset="5210349/720000s" name="Synthetic Asset Clip 019" start="320602/720000s" duration="38320111/35280000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                            <asset-clip ref="r20" lane="-2" offset="6023536/720000s" name="Synthetic Asset Clip 020" start="1809611/720000s" duration="1173563/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-16.5951dB" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="27500/3000s" name="Synthetic Clip 014" start="32300/3000s" duration="4900/3000s" format="r2" tcFormat="NDF">
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="4134400/384000s" name="Synthetic Video 006" start="1421504000/384000s" duration="627200/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.585754 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="4134400/384000s" name="Turn Once - Basic Title" start="3672s" duration="627200/384000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts19">turn </text-style>
+                                    <text-style ref="ts20">once</text-style>
+                                </text>
+                                <text-style-def id="ts19">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts20">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="0.988235 0.941176 0.356863 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.376" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <clip lane="3" offset="32300/3000s" name="Synthetic Clip 015" start="26700/3000s" duration="4900/3000s" tcFormat="NDF">
+                                <adjust-crop mode="trim">
+                                    <trim-rect top="19.5863" bottom="14.0419" />
+                                </adjust-crop>
+                                <adjust-transform position="-15.2631 -34.3401" scale="0.471004 0.49211" />
+                                <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            </clip>
+                            <asset-clip ref="r30" lane="-1" offset="7782455/720000s" name="Synthetic Asset Clip 021" start="356799/720000s" duration="54667417/35280000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="32400/3000s" name="Synthetic Clip 016" start="40400/3000s" duration="1s" format="r2" tcFormat="NDF">
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="5171200/384000s" name="Synthetic Video 007" start="1422540800/384000s" duration="665600/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.547156 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="5171200/384000s" name="Brush Oil - Basic Title" start="1411084800/384000s" duration="1s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/3131739953/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/3131739953/404" value="-2" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts21">brush with </text-style>
+                                    <text-style ref="ts22">oil</text-style>
+                                </text>
+                                <text-style-def id="ts21">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="0.996078 0.976471 0.360784 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts22">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.376" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r31" lane="-1" offset="9727230/720000s" name="Synthetic Asset Clip 022" start="367141/720000s" duration="32897985/35280000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="2dB" />
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                                <filter-audio ref="r22" name="Synthetic Filter Audio 006">
+                                    <param name="Amount" key="amount" value="12" />
+                                </filter-audio>
+                            </asset-clip>
+                            <clip lane="-2" offset="9731432/720000s" name="Synthetic Clip 017" start="60773/2184s" duration="676578/720000s" format="r11" tcFormat="NDF">
+                                <adjust-volume amount="-19.8895dB" />
+                                <gap name="Synthetic Gap 005" offset="0s" duration="781824/15360s">
+                                    <audio ref="r27" lane="-1" offset="0s" duration="36648000/720000s" role="dialogue.dialogue-1" srcCh="1, 2" />
+                                </gap>
+                                <filter-audio ref="r13" name="Synthetic Filter Audio 007">
+                                    <data key="effectState">c3ludGhldGlj</data>
+                                    <param name="Peak 2 Frequency [Hz]" key="14" value="750" auxValue="550" />
+                                    <param name="Peak 2 Gain [dB]" key="15" value="-9.5" auxValue="145" />
+                                    <param name="Peak 3 Gain [dB]" key="19" value="-21.0" auxValue="30" />
+                                    <param name="Peak 4 Frequency [Hz]" key="22" value="750" auxValue="550" />
+                                    <param name="Peak 4 Gain [dB]" key="23" value="-11.5" auxValue="125" />
+                                    <param name="Gain-Q Couple Mode" key="43" value="2 (Medium)" />
+                                    <param name="Oversampling" key="45" value="0" />
+                                </filter-audio>
+                            </clip>
+                        </clip>
+                        <clip offset="35400/3000s" name="Synthetic Clip 018" start="62000/3000s" duration="2200/3000s" format="r2" tcFormat="NDF">
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <title ref="r7" lane="2" offset="7936000/384000s" name="Cook Crisp - Basic Title" start="1411468800/384000s" duration="281600/384000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/3131739953/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/3131739953/404" value="-2" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts23">cook </text-style>
+                                    <text-style ref="ts24">until </text-style>
+                                    <text-style ref="ts23">crisp</text-style>
+                                </text>
+                                <text-style-def id="ts23">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts24">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="0.996078 0.976471 0.352941 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.376" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r32" lane="-1" offset="14925706/720000s" name="Synthetic Asset Clip 023" start="320602/720000s" duration="21236270/35280000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                            <clip lane="-2" offset="15079160/720000s" name="Synthetic Clip 019" start="830747/90090s" duration="185204/720000s" format="r11" tcFormat="NDF">
+                                <adjust-volume amount="-10.8813dB">
+                                    <param name="amount">
+                                        <fadeIn type="easeIn" duration="443208/5760000s" />
+                                        <fadeOut type="easeIn" duration="827776/5760000s" />
+                                    </param>
+                                </adjust-volume>
+                                <gap name="Synthetic Gap 006" offset="0s" duration="781824/15360s">
+                                    <audio ref="r27" lane="-1" offset="0s" duration="36648000/720000s" role="dialogue.dialogue-1" srcCh="1, 2" />
+                                </gap>
+                            </clip>
+                        </clip>
+                        <clip offset="37600/3000s" name="Synthetic Clip 020" start="34600/3000s" duration="4400/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="537856/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="4428800/384000s" name="Synthetic Video 008" start="1424704000/384000s" duration="563200/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.472845 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="4428800/384000s" name="Rest Briefly - Basic Title" start="1413248000/384000s" duration="563200/384000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts25">let it </text-style>
+                                    <text-style ref="ts26">rest</text-style>
+                                </text>
+                                <text-style-def id="ts25">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts26">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="0.984314 0.913725 0.329412 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.376" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r33" lane="-1" offset="8327500/720000s" name="Synthetic Asset Clip 024" start="434364/720000s" duration="48497676/35280000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="2dB" />
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                                <filter-audio ref="r22" name="Synthetic Filter Audio 008">
+                                    <param name="Amount" key="amount" value="12" />
+                                </filter-audio>
+                            </asset-clip>
+                            <asset-clip ref="r4" lane="-2" offset="408129232/35280000s" name="Synthetic Asset Clip 025" start="989817797/35280000s" duration="196615/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-28.8dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="23289896/282240000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r4" lane="-2" offset="427754712/35280000s" name="Synthetic Asset Clip 026" start="989817797/35280000s" duration="196615/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-28.8dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="23289896/282240000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r4" lane="-2" offset="444341408/35280000s" name="Synthetic Asset Clip 027" start="992223501/35280000s" duration="230207/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-28.8dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="23289896/282240000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="14s" name="Synthetic Clip 021" start="86300/3000s" duration="3400/3000s" format="r2" tcFormat="NDF">
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="11046400/384000s" name="Synthetic Video 009" start="1426892800/384000s" duration="435200/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.301969 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="11046400/384000s" name="Slice Wedges - Basic Title" start="1415436800/384000s" duration="435200/384000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts27">slice into </text-style>
+                                    <text-style ref="ts28">wedges</text-style>
+                                </text>
+                                <text-style-def id="ts27">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts28">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="0.996078 0.972549 0.333333 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.376" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r34" lane="-1" offset="20250101/720000s" name="Synthetic Asset Clip 028" start="346457/720000s" duration="37182869/35280000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                            <asset-clip ref="r35" lane="-2" offset="20250101/720000s" name="Synthetic Asset Clip 029" start="903226/720000s" duration="133979/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-15.2815dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="69142/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="116736/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r35" lane="-2" offset="21045520/720000s" name="Synthetic Asset Clip 030" start="903226/720000s" duration="133979/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-15.2815dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="69142/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="116736/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r35" lane="-2" offset="21342680/720000s" name="Synthetic Asset Clip 031" start="903226/720000s" duration="133979/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-15.2815dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="69142/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="116736/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="5811200/384000s" name="Synthetic Clip 022" start="12454400/384000s" duration="320000/384000s" format="r2" tcFormat="NDF">
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="12454400/384000s" name="Synthetic Video 010" start="1428300800/384000s" duration="640000/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.578895 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="12454400/384000s" name="Bright Topping - Basic Title" start="1416844800/384000s" duration="640000/384000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts29">add a </text-style>
+                                    <text-style ref="ts30">bright </text-style>
+                                    <text-style ref="ts29">topping</text-style>
+                                </text>
+                                <text-style-def id="ts29">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts30">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="0.988235 0.937255 0.337255 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.376" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r35" lane="-2" offset="23370816/720000s" name="Synthetic Asset Clip 032" start="903226/720000s" duration="133979/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-15.2815dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="69142/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="116736/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r36" lane="-1" offset="23387494/720000s" name="Synthetic Asset Clip 033" start="351628/720000s" duration="56282940/35280000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                            <asset-clip ref="r35" lane="-2" offset="23608544/720000s" name="Synthetic Asset Clip 034" start="903226/720000s" duration="133979/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-15.2815dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="69142/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="116736/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r35" lane="-2" offset="23812680/720000s" name="Synthetic Asset Clip 035" start="903226/720000s" duration="133979/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-15.2815dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="69142/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="116736/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="6131200/384000s" name="Synthetic Clip 023" start="52150/3000s" duration="2500/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="537856/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <clip lane="-2" offset="12526552/720000s" name="Synthetic Clip 024" start="60773/2184s" duration="596474/720000s" format="r11" tcFormat="NDF">
+                                <adjust-volume amount="-19.8895dB" />
+                                <gap name="Synthetic Gap 007" offset="0s" duration="781824/15360s">
+                                    <audio ref="r27" lane="-1" offset="0s" duration="36648000/720000s" role="dialogue.dialogue-1" srcCh="1, 2" />
+                                </gap>
+                                <filter-audio ref="r13" name="Synthetic Filter Audio 009">
+                                    <data key="effectState">c3ludGhldGlj</data>
+                                    <param name="Peak 2 Frequency [Hz]" key="14" value="750" auxValue="550" />
+                                    <param name="Peak 2 Gain [dB]" key="15" value="-9.5" auxValue="145" />
+                                    <param name="Peak 3 Gain [dB]" key="19" value="-21.0" auxValue="30" />
+                                    <param name="Peak 4 Frequency [Hz]" key="22" value="750" auxValue="550" />
+                                    <param name="Peak 4 Gain [dB]" key="23" value="-11.5" auxValue="125" />
+                                    <param name="Gain-Q Couple Mode" key="43" value="2 (Medium)" />
+                                    <param name="Oversampling" key="45" value="0" />
+                                </filter-audio>
+                            </clip>
+                        </clip>
+                        <clip offset="6451200/384000s" name="Synthetic Clip 025" start="114900/3000s" duration="3900/3000s" format="r2" tcFormat="NDF">
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="14707200/384000s" name="Synthetic Video 011" start="1430553600/384000s" duration="499200/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.303597 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="14707200/384000s" name="Serve Warm - Basic Title" start="1419097600/384000s" duration="499200/384000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts31">serve </text-style>
+                                    <text-style ref="ts32">while </text-style>
+                                    <text-style ref="ts31">warm</text-style>
+                                </text>
+                                <text-style-def id="ts31">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts32">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="0.988235 0.941176 0.356863 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.376" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r37" lane="-1" offset="27623022/720000s" name="Synthetic Asset Clip 036" start="253379/720000s" duration="42146396/35280000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                            <asset-clip ref="r35" lane="-2" offset="27694568/720000s" name="Synthetic Asset Clip 037" start="903226/720000s" duration="133979/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-15.2815dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="69142/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="116736/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r35" lane="-2" offset="28392248/720000s" name="Synthetic Asset Clip 038" start="903226/720000s" duration="133979/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-15.2815dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="69142/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="116736/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="6950400/384000s" name="Synthetic Clip 026" start="61950/3000s" duration="2600/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="537856/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="7929600/384000s" name="Synthetic Video 012" start="1431206400/384000s" duration="332800/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.355959 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="7929600/384000s" name="Save Portion - Basic Title" start="1419750400/384000s" duration="332800/384000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="Size" key="9999/999166631/999166633/5/999166635/3" value="23" />
+                                <param name="Font" key="9999/999166631/999166633/5/999166635/83" value="25 0" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts33">save a portion</text-style>
+                                </text>
+                                <text-style-def id="ts33">
+                                    <text-style font="Aviano Sans" fontSize="23" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.4918" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <clip lane="-2" offset="14887760/720000s" name="Synthetic Clip 027" start="27612577/720720s" duration="604893/720000s" format="r11" tcFormat="NDF">
+                                <adjust-volume amount="-18.8184dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="44225/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <gap name="Synthetic Gap 008" offset="0s" duration="781824/15360s">
+                                    <audio ref="r27" lane="-1" offset="0s" duration="36648000/720000s" role="dialogue.dialogue-1" srcCh="1, 2" />
+                                </gap>
+                                <filter-audio ref="r13" name="Synthetic Filter Audio 010">
+                                    <data key="effectState">c3ludGhldGlj</data>
+                                    <param name="Peak 2 Frequency [Hz]" key="14" value="710" auxValue="542" />
+                                    <param name="Peak 2 Gain [dB]" key="15" value="-11.0" auxValue="130" />
+                                    <param name="Peak 3 Frequency [Hz]" key="18" value="730" auxValue="546" />
+                                    <param name="Peak 3 Gain [dB]" key="19" value="-22.5" auxValue="15" />
+                                    <param name="Peak 4 Frequency [Hz]" key="22" value="740" auxValue="548" />
+                                    <param name="Peak 4 Gain [dB]" key="23" value="-14.0" auxValue="100" />
+                                    <param name="Gain-Q Couple Mode" key="43" value="2 (Medium)" />
+                                    <param name="Oversampling" key="45" value="0" />
+                                </filter-audio>
+                            </clip>
+                            <asset-clip ref="r38" lane="-1" offset="14899460/720000s" name="Synthetic Asset Clip 039" start="356799/720000s" duration="26529437/35280000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="7283200/384000s" name="Synthetic Clip 028" start="36446/3000s" duration="4100/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="298809/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <adjust-transform scale="-1 1" />
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="4665088/384000s" name="Synthetic Video 013" start="1432140800/384000s" duration="524800/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.389442 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="4665088/384000s" name="Share Friends - Basic Title" start="1420684800/384000s" duration="524800/384000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts34">share </text-style>
+                                    <text-style ref="ts35">with </text-style>
+                                    <text-style ref="ts34">friends</text-style>
+                                </text>
+                                <text-style-def id="ts34">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts35">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="0.992157 0.956863 0.352941 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.376" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r39" lane="-1" offset="8753760/720000s" name="Synthetic Asset Clip 040" start="418851/720000s" duration="46523395/35280000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                            <clip lane="-2" offset="1097311/90000s" name="Synthetic Clip 029" start="651032/30000s" duration="20020/30000s" format="r40" tcFormat="NDF">
+                                <adjust-volume amount="-28.8dB" />
+                                <gap name="Synthetic Gap 009" offset="0s" duration="5990985/30000s">
+                                    <audio ref="r41" lane="-1" offset="0s" duration="143784000/720000s" role="dialogue.dialogue-1" srcCh="1, 2" />
+                                </gap>
+                            </clip>
+                            <clip lane="-2" offset="1190335/90000s" name="Synthetic Clip 030" start="651032/30000s" duration="466473/720000s" format="r40" tcFormat="NDF">
+                                <adjust-volume amount="-28.8dB" />
+                                <gap name="Synthetic Gap 010" offset="0s" duration="5990985/30000s">
+                                    <audio ref="r41" lane="-1" offset="0s" duration="143784000/720000s" role="dialogue.dialogue-1" srcCh="1, 2" />
+                                </gap>
+                            </clip>
+                        </clip>
+                        <clip offset="7808000/384000s" name="Synthetic Clip 031" start="72950/3000s" duration="2100/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="537856/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="9337600/384000s" name="Synthetic Video 014" start="1434022400/384000s" duration="588800/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.380373 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="9337600/384000s" name="Clean Pan - Basic Title" start="1423244800/384000s" duration="588800/384000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts36">clean </text-style>
+                                    <text-style ref="ts37">the </text-style>
+                                    <text-style ref="ts36">pan</text-style>
+                                </text>
+                                <text-style-def id="ts36">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts37">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="0.984314 0.917647 0.345098 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.376" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r42" lane="-3" offset="730293/30000s" name="Synthetic Asset Clip 041" start="16489/6000s" duration="484824/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-14.6512dB" />
+                                <keyword start="0s" duration="436907/48000s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r43" lane="-1" offset="17531516/720000s" name="Synthetic Asset Clip 042" start="387825/720000s" duration="51549101/35280000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="8076800/384000s" name="Synthetic Clip 032" start="77850/3000s" duration="2500/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="537856/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <asset-clip ref="r4" lane="-2" offset="915936224/35280000s" name="Synthetic Asset Clip 043" start="591952364/35280000s" duration="578099/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-20.2458dB" />
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <clip lane="-4" offset="19278682/720000s" name="Synthetic Clip 033" start="19397010/720000s" duration="2644938/720000s" format="r44" tcFormat="NDF">
+                                <adjust-volume amount="-15.2919dB">
+                                    <param name="amount">
+                                        <fadeIn type="easeIn" duration="82736/720000s" />
+                                        <fadeOut type="easeIn" duration="202614/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <gap name="Synthetic Gap 011" offset="0s" duration="90486000/90000s">
+                                    <audio ref="r45" lane="-1" offset="0s" duration="723888000/720000s" role="dialogue.dialogue-1" srcCh="1, 2" />
+                                </gap>
+                            </clip>
+                        </clip>
+                        <clip offset="8396800/384000s" name="Synthetic Clip 034" start="160700/3000s" duration="4500/3000s" format="r2" tcFormat="NDF">
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="20250101/384000s" name="Synthetic Video 015" start="1435916800/384000s" duration="576000/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.584917 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="20250101/384000s" name="Plate Care - Basic Title" start="1424460800/384000s" duration="576000/384000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts38">plate </text-style>
+                                    <text-style ref="ts39">with </text-style>
+                                    <text-style ref="ts38">care</text-style>
+                                </text>
+                                <text-style-def id="ts38">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts39">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 0.992157 0.34902 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.376" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r4" lane="-2" offset="1890480368/35280000s" name="Synthetic Asset Clip 044" start="591952364/35280000s" duration="578099/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-20.2458dB" />
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r46" lane="-1" offset="38597670/720000s" name="Synthetic Asset Clip 045" start="351628/720000s" duration="54519996/35280000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="2dB" />
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                                <filter-audio ref="r22" name="Synthetic Filter Audio 011">
+                                    <param name="Amount" key="amount" value="12" />
+                                </filter-audio>
+                            </asset-clip>
+                            <asset-clip ref="r4" lane="-2" offset="39229816/720000s" name="Synthetic Asset Clip 046" start="443480/720000s" duration="238612/720000s" format="r47" audioRole="dialogue">
+                                <adjust-volume amount="-14.8372dB">
+                                    <param name="amount">
+                                        <fadeIn type="easeIn" duration="67236/720000s" />
+                                        <fadeOut type="easeIn" duration="8396624/35280000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r4" lane="-2" offset="1942646160/35280000s" name="Synthetic Asset Clip 047" start="591952364/35280000s" duration="547091/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-20.2458dB" />
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="8972800/384000s" name="Synthetic Clip 035" start="91778/3000s" duration="2300/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="597618/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="11747584/384000s" name="Synthetic Video 016" start="1436492800/384000s" duration="832000/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="-0.0267443 31.1523" scale="0.713219 0.0419921" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <asset-clip ref="r48" lane="-1" offset="22148087/720000s" name="Synthetic Asset Clip 048" start="377483/720000s" duration="68492434/35280000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                            <clip lane="-3" offset="22308800/720000s" name="Synthetic Clip 036" start="830747/90090s" duration="185204/720000s" format="r11" tcFormat="NDF">
+                                <adjust-volume amount="-16.3328dB">
+                                    <param name="amount">
+                                        <fadeIn type="easeIn" duration="443208/5760000s" />
+                                        <fadeOut type="easeIn" duration="827776/5760000s" />
+                                    </param>
+                                </adjust-volume>
+                                <gap name="Synthetic Gap 012" offset="0s" duration="781824/15360s">
+                                    <audio ref="r27" lane="-1" offset="0s" duration="36648000/720000s" role="dialogue.dialogue-1" srcCh="1, 2" />
+                                </gap>
+                            </clip>
+                        </clip>
+                        <clip offset="9267200/384000s" name="Synthetic Clip 037" start="94223/3000s" duration="2100/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="597618/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <asset-clip ref="r4" lane="-2" offset="1108384312/35280000s" name="Synthetic Asset Clip 049" start="591952364/35280000s" duration="578099/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-20.2458dB" />
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r35" lane="-3" offset="22844896/720000s" name="Synthetic Asset Clip 050" start="903226/720000s" duration="133979/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-15.2815dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="69142/720000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="116736/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="9536000/384000s" name="Synthetic Clip 038" start="96923/3000s" duration="2100/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="597618/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <asset-clip ref="r4" lane="-3" offset="1140130432/35280000s" name="Synthetic Asset Clip 051" start="591952364/35280000s" duration="578099/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-20.2458dB" />
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r4" lane="-2" offset="1164187472/35280000s" name="Synthetic Asset Clip 052" start="591952364/35280000s" duration="578099/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-20.2458dB" />
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="9804800/384000s" name="Synthetic Clip 039" start="106001/3000s" duration="2300/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="632772/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="13568128/384000s" name="Synthetic Video 017" start="1438412800/384000s" duration="294400/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="0.025339 30.9725" scale="0.366345 0.0538024" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="13568128/384000s" name="DISH UP - Basic Title" start="1426956800/384000s" duration="294400/384000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="Size" key="9999/999166631/999166633/5/999166635/3" value="31" />
+                                <param name="Font" key="9999/999166631/999166633/5/999166635/83" value="25 0" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts43">DISH UP</text-style>
+                                </text>
+                                <text-style-def id="ts43">
+                                    <text-style font="Aviano Sans" fontSize="31" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 30.0039" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r49" lane="-1" offset="25458949/720000s" name="Synthetic Asset Clip 053" start="305089/720000s" duration="24218922/35280000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="2dB" />
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                                <filter-audio ref="r22" name="Synthetic Filter Audio 012">
+                                    <param name="Amount" key="amount" value="12" />
+                                </filter-audio>
+                            </asset-clip>
+                            <asset-clip ref="r14" lane="-3" offset="25617112/720000s" name="Synthetic Asset Clip 054" start="910455/720000s" duration="853688/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-5.89099dB" />
+                                <keyword start="0s" duration="1549312/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="10099200/384000s" name="Synthetic Clip 040" start="96400/3000s" duration="2800/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="537856/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <video ref="r6" lane="1" offset="12339200/384000s" name="Synthetic Video 018" start="1440025600/384000s" duration="896000/384000s">
+                                <param name="Color" key="9999/10008/10006/2/1/1" value="0.340198 0.0989691 0.0136182" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <adjust-transform position="0.025339 31.4224" scale="0.590024 0.0656781" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </video>
+                            <title ref="r7" lane="2" offset="12339200/384000s" name="Follow More - Basic Title" start="1428569600/384000s" duration="896000/384000s">
+                                <param name="Flatten" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/3131741837/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/3131741837/404" value="-2" />
+                                <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="1 (Center)" />
+                                <param name="Line Spacing" key="9999/999166631/999166633/2/354/999169573/404" value="-2" />
+                                <param name="disableDRT" key="3733" value="1" />
+                                <text>
+                                    <text-style ref="ts44">follow for more
+</text-style>
+                                    <text-style ref="ts45">simple </text-style>
+                                    <text-style ref="ts44">kitchen notes</text-style>
+                                </text>
+                                <text-style-def id="ts44">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="1 1 1 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <text-style-def id="ts45">
+                                    <text-style font="Avenir Next Condensed" fontSize="17" fontFace="Regular" fontColor="0.976471 0.870588 0.341176 1" alignment="center" lineSpacing="-2" />
+                                </text-style-def>
+                                <adjust-transform position="-0.0112916 31.9723" scale="1.65437 1.65437" />
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
+                            </title>
+                            <asset-clip ref="r50" lane="-1" offset="23144016/720000s" name="Synthetic Asset Clip 055" start="297830/720000s" duration="630269/720000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                            <asset-clip ref="r4" lane="-4" offset="1134275128/35280000s" name="Synthetic Asset Clip 056" start="591952364/35280000s" duration="578099/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-20.2458dB" />
+                                <keyword start="0s" duration="1713152/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r51" lane="-1" offset="23804808/720000s" name="Synthetic Asset Clip 057" start="328640/720000s" duration="922081/720000s" format="r5" audioRole="dialogue">
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" />
+                            </asset-clip>
+                        </clip>
+                        <clip offset="10457600/384000s" name="Synthetic Clip 041" start="99250/3000s" duration="4200/3000s" format="r2" tcFormat="NDF">
+                            <timeMap>
+                                <timept time="0s" value="0s" interp="smooth2" />
+                                <timept time="537856/15360s" value="1075712/15360s" interp="smooth2" />
+                            </timeMap>
+                            <video ref="r3" offset="0s" duration="1075712/15360s" />
+                            <asset-clip ref="r52" lane="-2" offset="23821976/720000s" name="Synthetic Asset Clip 058" start="46512/720000s" duration="938706/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="9dB" />
+                                <keyword start="0s" duration="63488/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r18" lane="-3" offset="24300016/720000s" name="Synthetic Asset Clip 059" start="1047258/720000s" duration="527513/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-19.7166dB">
+                                    <param name="amount">
+                                        <fadeIn type="easeIn" duration="3039712/5760000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="135168/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                            <asset-clip ref="r19" lane="-4" offset="37518026/1102500s" name="Synthetic Asset Clip 060" start="13421/44100s" duration="327563/720000s" format="r5" audioRole="dialogue">
+                                <adjust-volume amount="-6.41817dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="35095368/282240000s" />
+                                    </param>
+                                </adjust-volume>
+                                <keyword start="0s" duration="52224/44100s" value="Synthetic Keyword" />
+                            </asset-clip>
+                        </clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Synthetic Smart Collection 001" match="all">
+            <match-clip rule="is" type="project" />
+        </smart-collection>
+        <smart-collection name="Synthetic Smart Collection 002" match="any">
+            <match-media rule="is" type="videoOnly" />
+            <match-media rule="is" type="videoWithAudio" />
+        </smart-collection>
+        <smart-collection name="Synthetic Smart Collection 003" match="all">
+            <match-media rule="is" type="audioOnly" />
+        </smart-collection>
+        <smart-collection name="Synthetic Smart Collection 004" match="all">
+            <match-media rule="is" type="stills" />
+        </smart-collection>
+        <smart-collection name="Synthetic Smart Collection 005" match="all">
+            <match-ratings value="favorites" />
+        </smart-collection>
+        <smart-collection name="Synthetic Smart Collection 006" match="all">
+            <match-analysis-type rule="isMissing" value="any" />
+        </smart-collection>
+    </library>
+</fcpxml>

@@ -1,0 +1,7 @@
+interface:
+  display_name: "FCPXML Subtitle Aligner"
+  short_description: "Align Final Cut Pro subtitle titles safely"
+  icon_small: "./assets/icon-400.png"
+  icon_large: "./assets/logo.svg"
+  brand_color: "#7A1F0E"
+  default_prompt: "Use $fcpxml-subtitle-aligner to align Final Cut Pro subtitle titles while preserving the source."

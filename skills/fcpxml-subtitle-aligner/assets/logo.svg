@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="title desc">
+  <title id="title">FCPXML Subtitle Aligner</title>
+  <desc id="desc">A centered title card mark with alignment guides</desc>
+  <rect width="400" height="400" rx="72" fill="#7A1F0E"/>
+  <path d="M92 108h216M92 292h216" stroke="#FCEFEA" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+  <path d="M200 80v240" stroke="#FCEFEA" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 14" opacity=".45"/>
+  <rect x="112" y="148" width="176" height="104" rx="18" fill="#FCEFEA"/>
+  <path d="M146 181h108M146 219h76" stroke="#7A1F0E" stroke-width="14" stroke-linecap="round"/>
+  <path d="M76 200h36M288 200h36" stroke="#FCEFEA" stroke-width="10" stroke-linecap="round"/>
+</svg>

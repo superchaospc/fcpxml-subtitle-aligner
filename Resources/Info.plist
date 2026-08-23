@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>FCPXML Subtitle Aligner</string>
+    <key>CFBundleExecutable</key>
+    <string>FCPXMLSubtitleAligner</string>
+    <key>CFBundleIdentifier</key>
+    <string>local.codex.fcpxml-subtitle-aligner</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>FCPXML Subtitle Aligner</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>fcpxml</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>Final Cut Pro XML</string>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>local.codex.fcpxml-subtitle-aligner.fcpxml</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>fcpxmld</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>Final Cut Pro XML Bundle</string>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>local.codex.fcpxml-subtitle-aligner.fcpxmld</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <true/>
+        </dict>
+    </array>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+        <dict>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.xml</string>
+                <string>public.data</string>
+            </array>
+            <key>UTTypeDescription</key>
+            <string>Final Cut Pro XML</string>
+            <key>UTTypeIdentifier</key>
+            <string>local.codex.fcpxml-subtitle-aligner.fcpxml</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>fcpxml</string>
+                </array>
+            </dict>
+        </dict>
+        <dict>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>com.apple.package</string>
+                <string>public.data</string>
+            </array>
+            <key>UTTypeDescription</key>
+            <string>Final Cut Pro XML Bundle</string>
+            <key>UTTypeIdentifier</key>
+            <string>local.codex.fcpxml-subtitle-aligner.fcpxmld</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>fcpxmld</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
