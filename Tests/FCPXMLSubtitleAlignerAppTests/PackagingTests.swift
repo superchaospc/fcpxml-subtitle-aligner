@@ -114,11 +114,12 @@ final class PackagingTests: XCTestCase {
             "-Xswiftc -warnings-as-errors", "--arch arm64 --arch x86_64",
             "FCPXMLSubtitleAligner", "fcpxml-aligner", "lipo", "-verify_arch arm64 x86_64",
             "quick_validate", "SKILL.md", "bash -n", "scripts/build_app.sh", "scripts/install_skill.sh",
-            "xcodebuild test", "SkillPackagingTests", "SWIFT_TREAT_WARNINGS_AS_ERRORS=YES",
-            "-only-testing:FCPXMLSubtitleAlignerAppTests/SkillPackagingTests"
+            "xcodebuild build", "Validate package build under Xcode",
+            "SWIFT_TREAT_WARNINGS_AS_ERRORS=YES", "platform=macOS,arch=arm64"
         ] {
             XCTAssertTrue(workflow.localizedCaseInsensitiveContains(token), "CI is missing: \(token)")
         }
+        XCTAssertFalse(workflow.contains("xcodebuild test"))
     }
 
     func testBuiltTestExecutableLocatorFindsDebugAndReleaseSiblingsFromBundleBases() throws {

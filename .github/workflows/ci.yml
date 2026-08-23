@@ -43,12 +43,11 @@ jobs:
           swift package clean
           swift test -c release -Xswiftc -warnings-as-errors
 
-      - name: Run SkillPackagingTests under Xcode
+      - name: Validate package build under Xcode
         run: |
-          xcodebuild test \
+          xcodebuild build \
             -scheme FCPXMLSubtitleAligner-Package \
-            -destination 'platform=macOS' \
-            -only-testing:FCPXMLSubtitleAlignerAppTests/SkillPackagingTests \
+            -destination 'platform=macOS,arch=arm64' \
             SWIFT_TREAT_WARNINGS_AS_ERRORS=YES
 
       - name: Build universal Release App and CLI
