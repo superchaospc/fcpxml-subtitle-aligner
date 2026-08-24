@@ -251,6 +251,21 @@ final class SkillPackagingTests: XCTestCase {
         XCTAssertFalse(skill.localizedCaseInsensitiveContains("upload"), "Skill must not instruct remote uploads.")
     }
 
+    func testSkillLocatesNativeAndUniversalSwiftBuildProductsWithoutHardcodedUserPaths() throws {
+        let skill = try readSkill()
+        let body = try XCTUnwrap(body(afterFrontmatterIn: skill))
+
+        for token in [
+            "swift build -c release --show-bin-path",
+            "swift build -c release --arch arm64 --arch x86_64 --show-bin-path",
+            ".build/apple/Products/Release/fcpxml-aligner",
+            "executable",
+        ] {
+            XCTAssertTrue(body.contains(token), "Missing build-product discovery rule: \(token)")
+        }
+        XCTAssertFalse(skill.contains("/Users"), "Skill must not hardcode a user path.")
+    }
+
     func testSkillRequiresStrictReadableInputPreflightBeforeFingerprintAndExecution() throws {
         let body = try XCTUnwrap(body(afterFrontmatterIn: readSkill()))
         for token in [
